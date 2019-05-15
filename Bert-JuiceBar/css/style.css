@@ -1,0 +1,56 @@
+/* FONTS */
+/* font-family: 'Pinyon Script', cursive;
+font-family: 'Mr Dafoe', cursive; */
+/* font-family: 'Roboto', sans-serif; */
+
+html, body {
+    height: 100%;
+    background: url('../images/customFruitBar.png') no-repeat center center/cover;
+    
+}
+
+.center {
+    text-align: center;
+    padding-top: 15%;
+}
+
+h1 {
+    color: #fff;
+    font-size: 7.5rem;
+    font-family: 'Pinyon Script', cursive;
+}
+
+h2 {
+    color: #fff;
+    font-size: 5rem;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.name {
+    margin-right: 20px;
+}
+
+.email {
+    margin-right: 20px;
+}
+
+.form-inline .form-control {
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn {
+    text-transform: uppercase;
+    transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+}
+
+.btn:hover {
+    background: #fff;
+    color: lightskyblue;
+    font-weight: bold;
+}
